@@ -1,0 +1,69 @@
+body {
+    font-family: 'League Spartan'; 
+    src: url('https://fonts.google.com/specimen/League+Spartan?query=spar#standard-styles') format('woff2'),
+      url('https://fonts.google.com/specimen/League+Spartan?query=spar#standard-styles') format('woff'), Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#fotoperfil {
+    width: 150px;
+    height: 180px;
+    padding: 12px 12px 0px 12px;
+    display: block;
+    margin: 0px auto;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,h3 {
+    background-color: rgb(211, 211, 211);
+    color: #006999;
+    letter-spacing: 3px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.area{
+    font-weight: bold;
+}
+
+.cargo{
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #006999;
+    color: azure;
+}
+
+.banner{
+    min-width: 650px;
+    min-height: 50px;
+    background-image: url(https://images5.alphacoders.com/316/thumb-1920-316617.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(0, 93, 185);
+}
+
+div{
+    min-width: 1800px;
+}
+
+a{
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+}
