@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    src: url('https://fonts.google.com/specimen/Roboto') format('woff2'),
+      url('https://fonts.google.com/specimen/Roboto') format('woff'), Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+header, footer, main, .descuento{
+  width: 1024px;
+  margin: auto;
+}
+
+main{
+  height: 1024px;
+}
+
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  line-height: 1,5;
+  top: 0;
+  box-shadow: 0px 0px 10px 0px;
+  z-index: 99;
+}
+
+.descuentos{
+    background-color: #1CD1B0;
+    width: 1024px;
+    height: 38px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0px 10px 28px;
+    line-height: 2.5;
+
+}
+
+.heroes{
+  background-color:#00669F;
+  width: 1024px;
+  height: 62px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 28px 0px 26px 28px;
+  line-height: -1;
+}
+
+.casilla-heroica{
+  width: 300px;
+  height: 530px;
+  padding: 30px;
+}
+
+footer{
+  background-color: #00669F;
+  font-size: 16px;
+  font-weight: 400;
+  color:#FFF9F9;
+  width: 1024px;
+  height: 51px;
+  text-align: left;
+  line-height: 3;
+  z-index: 99;
+  padding: 0 0 0 10px;
+}
+
+#galeria{
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  height: 1024px;
+  margin: 10px;
+}
+
+.fondo-heroico{
+  display: inline-block;
+  width: 300px;
+  height: 530px;
+}
+
+
+.fondo-heroico{
+  position: absolute;
+  z-index: 2;
+}
+
+.me-gusta{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.foto-perfil img{
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.foto-perfil {
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 30%;
+}
+
+.presentacion{
+  position: absolute;
+  width: 300px;
+  height: 550px;
+  background: #F3F3F3;
+}
+
+.presentacion h2 {
+  position: relative;
+  height: 35px;
+  top: 50%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  align-items: center;
+  color: #000000;
+  justify-content: center;
+}
+
+.presentacion p {
+  position: absolute;
+  width: 267px;
+  height: 113px;
+  left: 10px;
+  bottom: 20%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #333333;
+}
+
+.presentacion button {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  left: 30%;
+  bottom: 5%;
+  background-color: #00669F;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+
+p {
+  font-size: large;
+}
+
+.img-sh-left img {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 600px;
+}
+
+.img-sh-rigth img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 600px;
+}
