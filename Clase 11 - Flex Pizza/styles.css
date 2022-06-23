@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    src: url('https://fonts.google.com/specimen/Roboto') format('woff2'),
+      url('https://fonts.google.com/specimen/Roboto') format('woff'), Verdana, sans-serif;
+}
+
+
+header,footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: #222222;
+        color:#F3F3F3;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        width: 1024px;
+        box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+header{
+    height: 100px;
+    align-items: center;
+}
+
+footer{
+    height: 150px;
+}
+
+header .logo {
+    margin-left: 10px;
+  }
+
+header .navegacion li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+header .navegacion a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    height: 420px;
+}
+
+.envio-gratis{
+    background-image: url("/Clase\ 11\ -\ Flex\ Pizza/delivery");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    width: 490px;
+    height: 350px;
+}
+
+.envio-gratis h2{
+    display: flex;
+    color: #FC200C;
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    top: 10%;
+    width: 490px;
+}
+
+.envio-gratis h2 span{
+    color: #ffffff;
+}
+
+.podio-de-pizzas{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 5px;
+    text-align: center;
+    width: 490px;
+    height: 350px;
+    margin: 47px 0 0px 0;
+}
+
+.podio-de-pizzas h2{
+    color:#FC200C;
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.ranking-pizzero{
+    text-align: left;
+    width: 200px;
+    position: relative;
+    left: 15%;
+    top: 20%;
+    font-weight: 700;
+}
+
+ol {
+    font-weight: bold;
+  }
+
+  .plato-con-gustos{
+    width: 200px;
+    position: relative;
+    left: 55%;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
+    width: 1024px;
+    height: 60px;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+  }
+
+  footer img {
+    margin-right: 10px;
+  }
+  
+  footer ul li {
+    position: relative;
+    list-style: none;
+    padding: 5px 0px;
+  }
+  
+  footer ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
